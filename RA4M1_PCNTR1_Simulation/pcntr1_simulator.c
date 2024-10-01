@@ -1,4 +1,5 @@
 /*
+ * PCNTR1 Simulator 
  * Simulates 10 Port Direction (PDR) and Output Data (PODR) registers, 
  * each 16 bits wide. 
  * setup_PCNTR1(): Initializes PDR and PODR to zero.
@@ -30,7 +31,7 @@ int reset_PCNTR1(void)
 {
     return setup_PCNTR1();
 }
-//* test
+/* test
 int display_PCNTR1(void);
 
 int main(void)
@@ -43,4 +44,4 @@ int main(void)
 
     return 0;
 }
-//*/
+*/
