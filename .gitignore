@@ -1,0 +1,26 @@
+# Ignore compiled object files (C/C++ object files)
+*.o
+
+# Ignore executable files
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.bin
+pcntr1_simulator   # Specifically ignore your generated executable
+
+# Ignore backup files created by editors
+*~
+*.swp
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore core dump files
+core
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
