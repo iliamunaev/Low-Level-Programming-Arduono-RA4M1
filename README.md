@@ -1,6 +1,6 @@
-# Bare-Metal and ESP32-S3 Projects for Arduino UNO R4 WiFi (Renesas RA4M1)
-This repository contains a set of projects demonstrating **bare-metal programming** on the Renesas RA4M1 microcontroller and projects using the ESP32-S3 Wi-Fi/Bluetooth module, both of which are part of the Arduino UNO R4 WiFi board. 
+# Bare-Metal Programming Renesas RA4M1 MCU
+This repository contains a set of projects demonstrating **bare-metal programming** on the Renesas RA4M1 MCU.
 
-The projects cover low-level hardware control on the RA4M1 as well as wireless communication using the ESP32-S3 module.
-
- _NOTE: Arduino API, framework are not used_
+- **Board**: Arduino UNO R4 WiFi [datasheet](https://docs.arduino.cc/resources/datasheets/ABX00087-datasheet.pdf) | [pinout](https://docs.arduino.cc/resources/pinouts/ABX00087-full-pinout.pdf) | [schematics](https://docs.arduino.cc/resources/schematics/ABX00087-schematics.pdf)  
+- **MCU**: Renesas RA4M1 [datasheet](https://www.renesas.com/en/document/dst/ra4m1-group-datasheet?r=1054146) | [User's Manual: Hardware](https://www.renesas.com/en/document/mah/renesas-ra4m1-group-users-manual-hardware?r=1054146)  
+- **Core**: Arm Cortex-M4
