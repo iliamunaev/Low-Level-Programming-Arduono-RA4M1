@@ -1,3 +1,16 @@
+/*
+ * Arduino Program to Compare Execution Time of digitalWrite() vs Direct Register Access
+ *
+ * This script measures and compares the execution time of turning on an LED using:
+ * 1. The standard digitalWrite() function.
+ * 2. Direct manipulation of the microcontroller's registers.
+ *
+ * It prints the execution time of each method to the Serial Monitor every 2 seconds.
+ *
+ * Note:
+ * The code uses specific memory addresses for PORT1_PDR and PORT1_PODR.
+ * Ensure that your microcontroller supports these addresses and that direct register access is appropriate.
+ */
 #include <Arduino.h>
 
 #define PORT1_PDR (*(volatile uint16_t *)0x40040022)  // PDR address for setting the direction

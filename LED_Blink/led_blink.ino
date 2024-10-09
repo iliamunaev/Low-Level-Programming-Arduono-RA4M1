@@ -1,3 +1,13 @@
+/*
+ * Arduino Program to Blink an LED Connected to Pin P102 Using Direct Register Access
+ *
+ * This script toggles an LED connected to pin P102 by directly manipulating the microcontroller's registers.
+ * It sets the pin as an output and alternately turns the LED on and off every second.
+ *
+ * Note:
+ * The code uses specific memory addresses for PORT1_PDR and PORT1_PODR.
+ * Ensure that your microcontroller supports these addresses and that direct register access is appropriate.
+ */
 #include <Arduino.h>
 
 #define PORT1_PDR (*(volatile uint16_t *)0x40040022)  // PDR address for setting the direction
