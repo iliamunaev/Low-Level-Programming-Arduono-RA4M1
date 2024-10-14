@@ -8,8 +8,7 @@ Blinks an LED connected to pin P102 by directly manipulating the microcontroller
 ## 2. Execution Time Comparison
 Measures and compares the execution time of Arduino API digitalWrite() function versus direct register access for controlling an LED and prints the results to the Serial Monitor.  
 
-
-**Low-Level Code:** [execution_time_comparison.ino](execution_time_comparison.ino)
+**Low-Level Code:** [performance_test.ino](performance_test.ino)
 
 ## Usage
 Ready to use via Arduino IDE: copy and flash the desired .ino files to your board.
