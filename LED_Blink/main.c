@@ -1,5 +1,5 @@
 /* 
- * LED Blinl Bare Metal Programming
+ * LED Blink Bare-Metal Programming
  *
  * The bare-metal code for toggling Pin 2 of Port 1 on a Renesas
  * microcontroller using memory-mapped registers.
